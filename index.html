@@ -9,7 +9,7 @@
 <body>
     <header>
         <a href="#" title="Mon site de cocktail">
-            <i class="fa-thin fa-film" style="color: #ffffff;"></i>
+            <img src="/images/Ressources/Ressources/film-solid.svg" alt="Logo" width="50">
           </a>
           <nav>
             <Ul>
@@ -21,37 +21,84 @@
     </header>
     <main id="main_container">
         <div id="recherche">
-            <input type="text" class="barre-recherche" placeholder="Rechercher">
+            <form action="recherche">
+                <input class="barre-recherche" placeholder="Rechercher">
+                <button><img src="/images/Ressources/Ressources/magnifying-glass-solid.svg" alt="loupe"></button>
+            </form>
         </div>
 
-        <div class="tendances">
-            <h2>Tendances</h2>
-            <div class="ajd">Aujourd'hui</div>
-            <div class="semaine">Cette semaine</div>
-        </div>
 
-        <div id="films1">
-            <div class="ombre">
-                <img  src="../images/Ressources/Ressources/dune.jpg" alt="dune"  />
-                <h3>Dune</h3>
-                <p>15 sept 2021</p>
+        <section id="e1">
+            <div class="centre">
+                <div class="categorie">
+                    <h2>Tendances</h2>
+                    <button class="bouton">Aujourd'hui</button>
+                    <button class="bouton">Cette semaine</button>
+                </div>
+                <div class="films">
+                    <div class="film">
+                        <img class="ombre" src="../images/Ressources/Ressources/dune.jpg" alt="dune"  />
+                        <p class="pastille">80%</p>
+                        <h3>Dune</h3>
+                        <p>15 sept 2021</p>
+                    </div >
+                    <div class="film">
+                        <img class="ombre" src="../images/Ressources/Ressources/squidgame.jpg" alt="squidgame"  />
+                        <p class="pastille">80%</p>
+                        <h3>Squid Game</h3>
+                        <p>15 sept 2021</p>
+                    </div >
+                    <div class="film">
+                        <img class="ombre" src="../images/Ressources/Ressources/hypnotic.jpg" alt="hypnotic"  />
+                        <p class="pastille">80%</p>
+                        <h3>Hypnotic</h3>
+                        <p>15 sept 2021</p>
+                    </div>
+                    <div  class="film">
+                        <img class="ombre" src="../images/Ressources/Ressources/after.jpg" alt="after" />
+                        <p class="pastille">80%</p>
+                        <h3>After</h3>
+                        <p>15 sept 2021</p>
+                    </div>
+                </div>
             </div>
-            <div class="ombre">
-                <img  src="../images/Ressources/Ressources/squidgame.jpg" alt="squidgame"  />
-                <h3>Squid Game</h3>
-                <p>15 sept 2021</p>
+        </section>
+
+        
+
+        <section id="e2">
+            <div class="centre">
+                <div class="categorie">
+                    <h2>Populaires</h2>
+                    <button class="bouton">Streaming</button>
+                    <button class="bouton">TV</button>
+                    <button class="bouton">Cinéma</button>
+                </div>
+                <div class="films">
+                    <div >
+                        <img class="ombre" src="../images/Ressources/Ressources/greys.jpg" alt="greys"  />
+                        
+                        <h3>Grey's Anatomy</h3>
+                        <p>15 sept 2021</p>
+                    </div>
+                    <div >
+                        <img class="ombre" src="../images/Ressources/Ressources/got.jpg" alt="got"  />
+                        <h3>Game Of Throne</h3>
+                        <p>15 sept 2021</p>
+                    </div>
+                    <div >
+                        <img class="ombre" src="../images/Ressources/Ressources/mortal.jpg" alt="mortal"  />
+                        <h3>Mortal Kombat</h3>
+                        <p>15 sept 2021</p>
+                    </div>
+                    <div >
+                        <img class="ombre" src="../images/Ressources/Ressources/lucas.jpg" alt="lucas" />
+                        <h3>Lucas</h3>
+                        <p>15 sept 2021</p>
+                    </div>
+                </div>
             </div>
-            <div class="ombre">
-                <img  src="../images/Ressources/Ressources/hypnotic.jpg" alt="hypnotic"  />
-                <h3>Hypnotic</h3>
-                <p>15 sept 2021</p>
-            </div>
-            <div class="ombre" >
-                <img  src="../images/Ressources/Ressources/after.jpg" alt="after" />
-                <h3>After</h3>
-                <p>15 sept 2021</p>
-            </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>
